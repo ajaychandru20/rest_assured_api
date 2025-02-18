@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class GetAllEmployees {
 
-    @Test(enabled = false)
+    @Test(enabled = true,priority = 1)
     public void getAllEmployeeDetails() {
         RestAssured.baseURI = "http://localhost:3000/";
 
@@ -21,14 +21,16 @@ public class GetAllEmployees {
 
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true, priority = 0)
     public void createAnEmployee() {
         RestAssured.baseURI = "http://localhost:3000/";
 
         RequestSpecification requestSpecification = RestAssured.given().header("Content-Type", "application/json")
                 .body("{\n" +
-                        "    \"name\":\"Vijay\",\n" +
-                        "    \"role\":\"Actor\"\n" +
+                        "    \"name\":\"Ashok\",\n" +
+                        "    \"age\": \"26\",\n" +
+                        "    \"department\": \"Engineering\",\n" +
+                        "    \"email\": \"testing001@gmail.com\" " +
                         "}");
 
         Response response = requestSpecification.request(Method.POST, "employees");
@@ -51,7 +53,7 @@ public class GetAllEmployees {
         System.out.println(response.asPrettyString());
     }
 
-    @Test
+    @Test(enabled = false)
     public void deleteAnEmployee(){
         RestAssured.baseURI = "http://localhost:3000/";
 
