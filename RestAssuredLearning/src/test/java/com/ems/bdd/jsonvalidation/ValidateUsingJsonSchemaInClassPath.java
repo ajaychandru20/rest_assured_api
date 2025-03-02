@@ -20,6 +20,6 @@ public class ValidateUsingJsonSchemaInClassPath {
                 .when()
                 .post("/employees")
                 .then()
-                .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("jsonValidation/schema.json"));
+                .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("jsonValidation/readJsonFile/schema.json"));
     }
 }

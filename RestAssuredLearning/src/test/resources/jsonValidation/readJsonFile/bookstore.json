@@ -1,0 +1,54 @@
+{
+  "store": {
+    "books": [
+      {
+        "isbn": "ISBN-0-13-713526-2",
+        "price": 85,
+        "edition": 3,
+        "title": "A First Course in Database Systems",
+        "authors": [
+          {
+            "first_name": "Jeffrey",
+            "last_name": "Ullman"
+          },
+          {
+            "first_name": "Jennifer",
+            "last_name": "Widom"
+          }
+        ]
+      },
+      {
+        "isbn": "ISBN-0-13-815504-6",
+        "price": 100,
+        "remark": "Buy this book bundled with 'A First Course' - a great deal!",
+        "title": "Database Systems:The Complete Book",
+        "authors": [
+          {
+            "first_name": "Hector",
+            "last_name": "Garcia-Molina"
+          },
+          {
+            "first_name": "Jeffrey",
+            "last_name": "Ullman"
+          },
+          {
+            "first_name": "Jennifer",
+            "last_name": "Widom"
+          }
+        ]
+      }
+    ],
+    "magazines": [
+      {
+        "title": "National Geographic",
+        "month": "January",
+        "year": 2009
+      },
+      {
+        "title": "Newsweek",
+        "month": "February",
+        "year": 2009
+      }
+    ]
+  }
+}
