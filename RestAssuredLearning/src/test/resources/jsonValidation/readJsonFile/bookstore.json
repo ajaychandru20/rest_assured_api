@@ -21,7 +21,7 @@
         "isbn": "ISBN-0-13-815504-6",
         "price": 100,
         "remark": "Buy this book bundled with 'A First Course' - a great deal!",
-        "title": "Database Systems:The Complete Book",
+        "title": "Database Systems: The Complete Book",
         "authors": [
           {
             "first_name": "Hector",
@@ -36,6 +36,50 @@
             "last_name": "Widom"
           }
         ]
+      },
+      {
+        "isbn": "ISBN-0-201-61588-7",
+        "price": 120,
+        "edition": 2,
+        "title": "Introduction to Algorithms",
+        "authors": [
+          {
+            "first_name": "Thomas",
+            "last_name": "Cormen"
+          },
+          {
+            "first_name": "Charles",
+            "last_name": "Leiserson"
+          },
+          {
+            "first_name": "Ronald",
+            "last_name": "Rivest"
+          },
+          {
+            "first_name": "Clifford",
+            "last_name": "Stein"
+          }
+        ]
+      },
+      {
+        "isbn": "ISBN-0-07-352332-9",
+        "price": 95,
+        "edition": 4,
+        "title": "Operating System Concepts",
+        "authors": [
+          {
+            "first_name": "Abraham",
+            "last_name": "Silberschatz"
+          },
+          {
+            "first_name": "Peter",
+            "last_name": "Baer Galvin"
+          },
+          {
+            "first_name": "Greg",
+            "last_name": "Gagne"
+          }
+        ]
       }
     ],
     "magazines": [
@@ -48,6 +92,16 @@
         "title": "Newsweek",
         "month": "February",
         "year": 2009
+      },
+      {
+        "title": "Time",
+        "month": "March",
+        "year": 2010
+      },
+      {
+        "title": "Scientific American",
+        "month": "April",
+        "year": 2011
       }
     ]
   }

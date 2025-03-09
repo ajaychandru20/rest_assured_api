@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 
-public class UpdateEmployeeUsingFileJson {
+public class UpdateGetterSetterEmployeeUsingFileJson {
 
     @Test
     public void insertEmployeeUsingJson() {

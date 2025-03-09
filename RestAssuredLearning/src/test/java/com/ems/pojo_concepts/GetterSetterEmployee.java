@@ -1,6 +1,6 @@
 package com.ems.pojo_concepts;
 
-public class Employee {
+public class GetterSetterEmployee {
 
     private String name;
     private String age;
