@@ -9,13 +9,14 @@ public class DeserializerEmployee {
         // Serialize the POJO first
         SerializerEmployee serializerEmployee = new SerializerEmployee();
         String jsonData = serializerEmployee.convertPojoToJson(); // Now getting JSON as a return value
-
+        System.out.println("------------------------------------------------------------------\n");
         System.out.println("Imported JSON for Deserialization: " + jsonData);
 
         // Deserialize JSON back to Java object
         ObjectMapper mapper = new ObjectMapper();
         GetterSetterEmployee employee = mapper.readValue(jsonData, GetterSetterEmployee.class);
 
+        System.out.println("------------------------------------------------------------------\n");
         System.out.println("\nDeserialized Java Object:");
         System.out.println("Name: " + employee.getName());
         System.out.println("Age: " + employee.getAge());
