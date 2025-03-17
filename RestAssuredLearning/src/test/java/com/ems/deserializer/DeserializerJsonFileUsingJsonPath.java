@@ -32,6 +32,9 @@ public class DeserializerJsonFileUsingJsonPath {
         List<GetterSetterBooks.Book> booksData = respondBooks.getBooks();
         System.out.println(booksData);
 
+        Object bookData = booksData.toString();
+        System.out.println(bookData);
+
         for (GetterSetterBooks.Book data : booksData){
             System.out.println(data.toString());
         }
@@ -43,7 +46,7 @@ public class DeserializerJsonFileUsingJsonPath {
 
         DeserializerJsonFileUsingJsonPath deserializerJsonFileUsingJsonPath = new DeserializerJsonFileUsingJsonPath();
         deserializerJsonFileUsingJsonPath.convertDataUsingMapperProvider();
-        deserializerJsonFileUsingJsonPath.convertBooksDataUsingMapperProvider();
+//        deserializerJsonFileUsingJsonPath.convertBooksDataUsingMapperProvider();
 
 
 
