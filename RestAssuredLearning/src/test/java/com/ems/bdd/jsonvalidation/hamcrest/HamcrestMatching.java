@@ -1,4 +1,4 @@
-package com.ems.bdd.jsonvalidation;
+package com.ems.bdd.jsonvalidation.hamcrest;
 
 import io.restassured.module.jsv.JsonSchemaValidator;
 import org.apache.commons.io.FileUtils;
@@ -23,10 +23,6 @@ public class HamcrestMatching {
         InputStream readResponseSchema = new FileInputStream("src/test/resources/jsonValidation/schema.json");
 
         MatcherAssert.assertThat(stringJsonInput, JsonSchemaValidator.matchesJsonSchema(readResponseSchema));
-
-
-
-
 
     }
 

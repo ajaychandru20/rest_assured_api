@@ -1,4 +1,4 @@
-package com.ems.json_path;
+package com.ems.json_path.jaywayjson;
 
 import com.jayway.jsonpath.Configuration;
 import com.jayway.jsonpath.DocumentContext;

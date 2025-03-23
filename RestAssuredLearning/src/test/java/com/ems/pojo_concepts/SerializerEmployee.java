@@ -13,12 +13,12 @@ public class SerializerEmployee {
         getterSetterEmployee.setDescription("IT");
         getterSetterEmployee.setEmail("it@email.dom");
 
-        System.out.println("Original POJO Data:");
-        System.out.println(getterSetterEmployee.getName());
-        System.out.println(getterSetterEmployee.getAge());
-        System.out.println(getterSetterEmployee.getDescription());
-        System.out.println(getterSetterEmployee.getEmail());
-        System.out.println("------------------------------------------------------------------\n");
+//        System.out.println("Original POJO Data:");
+//        System.out.println(getterSetterEmployee.getName());
+//        System.out.println(getterSetterEmployee.getAge());
+//        System.out.println(getterSetterEmployee.getDescription());
+//        System.out.println(getterSetterEmployee.getEmail());
+//        System.out.println("------------------------------------------------------------------\n");
 
         ObjectMapper mapper = new ObjectMapper();
 

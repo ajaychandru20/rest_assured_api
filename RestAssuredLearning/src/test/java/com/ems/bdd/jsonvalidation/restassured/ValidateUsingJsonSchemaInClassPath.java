@@ -1,4 +1,4 @@
-package com.ems.bdd.jsonvalidation;
+package com.ems.bdd.jsonvalidation.restassured;
 
 import io.restassured.RestAssured;
 import io.restassured.module.jsv.JsonSchemaValidator;

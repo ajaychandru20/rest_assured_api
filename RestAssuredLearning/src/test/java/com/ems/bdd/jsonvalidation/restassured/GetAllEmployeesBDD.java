@@ -1,4 +1,4 @@
-package com.ems.bdd;
+package com.ems.bdd.jsonvalidation.restassured;
 
 import org.testng.annotations.Test;
 

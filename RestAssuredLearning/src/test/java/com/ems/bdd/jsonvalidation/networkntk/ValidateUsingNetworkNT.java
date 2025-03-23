@@ -1,4 +1,4 @@
-package com.ems.bdd.jsonvalidation;
+package com.ems.bdd.jsonvalidation.networkntk;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
