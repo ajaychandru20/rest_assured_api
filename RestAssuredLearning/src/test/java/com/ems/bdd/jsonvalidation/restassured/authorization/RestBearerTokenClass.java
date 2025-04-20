@@ -7,7 +7,7 @@ public class RestBearerTokenClass {
 
     @Test
     public void getGitRepository(){
-        String token = "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";
+        String token = "testing token";
 
         RestAssured.given()
                 .header("Authorization","Bearer " +token)

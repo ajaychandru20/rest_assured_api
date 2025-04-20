@@ -8,7 +8,7 @@ public class RestOauth2Class {
     @Test
     public void getGitRepoDetails(){
 
-        String token = "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";
+        String token = "testing token";
 
         RestAssured.given()
                 .auth()
