@@ -19,7 +19,7 @@ public class RestAPIAuthClass {
                 .baseUri("https://api.openweathermap.org/data/2.5/weather")
                 .when()
                 .queryParam("q","chennai")
-                .queryParam("appid","3764be22d1c217d19865567ffe95d7a0")
+                .queryParam("appid","Default")
                 .get()
                 .then().log().body();
     }
